@@ -1,0 +1,74 @@
+.heading {
+    text-align: center;
+    background-color: rgb(169, 26, 26);
+    color: white;
+    width: 1350px;
+    height: 50px;
+}
+.nameHead {
+    text-align: center;
+    padding:1px;
+    font-size:large;
+}
+.firstImg {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 200px;
+  height: 200px;
+     /* border: solid; */
+     border-radius: 100px;  
+
+}
+.song {
+  
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    margin-left: 620px;
+    opacity: 0.5;
+}
+.watch:hover {
+    box-shadow: 0px 0px 3px 5px red;
+    cursor: pointer;
+}
+.watch {
+    color: white;
+    height: 50px;
+    width:250px ;
+    font-size: large;
+    margin-left: 550px; 
+    background-color: rgb(231, 48, 48);
+    border-color: rgb(231,48,48);
+    opacity: 0.8;
+}
+.add:hover {
+    box-shadow: 0px 0px 3px 5px gray;
+    cursor: pointer;
+    border-color: none;
+}
+.add {
+    color:black;
+    height: 50px;
+    width:250px ;
+    font-size: large;
+    margin-left: 550px; 
+    background-color:white;
+    border-color: rgb(231,48,48);
+   
+}
+td :hover{
+    color: rgb(52, 52, 168);
+    text-decoration: underline;
+    cursor: pointer;
+ 
+}
+.table {
+    font-size: large;
+    color:white;
+    background-color: rgb(207, 34, 34);
+}
+
